@@ -4,7 +4,7 @@
 mTLS or mutual TLS is an tecnique, that provides secure comunication between two peers where the server and the client
 can use tls handshake to validate the identiti of each one, is verry userfull in machine to machine integration 
 ## Before start
-You need an AWS Account, and AWS cli and terraform instaled on your machine
+You need an AWS Account, and AWS cli, openssl and terraform instaled on your machine
 ## Configure Root Certificate Authority
 First create a to store the certificates  
 `mkdir certificates && cd certificates`  
