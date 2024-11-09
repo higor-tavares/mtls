@@ -1,5 +1,8 @@
 
 # How to use mTLS with AWS Api Gateway and terraform
+## What is mTLS?
+mTLS or mutual TLS is an tecnique, that provides secure comunication between two peers where the server and the client
+can use tls handshake to validate the identiti of each one, is verry userfull in machine to machine integration 
 ## Before start
 You need an AWS Account, and AWS cli and terraform instaled on your machine
 ## Configure Root Certificate Authority
