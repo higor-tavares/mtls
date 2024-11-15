@@ -58,7 +58,7 @@ And you should receive and error like this
 `curl: (56) Recv failure: Connection reset by peer`   
 Now test passing your client certificate
 ```
-curl -v --key certificates/Client.key --cert certificates/Client.pem --location 'https://www.higortavares.com.br/hook' \
+curl -v --key certificates/Client.key --cert certificates/Client.pem --location 'https://www.yourdomain.com/hook' \
 --header 'Content-Type: application/json' \
 --data '{
     "event":"AWAIT"
@@ -67,4 +67,4 @@ curl -v --key certificates/Client.key --cert certificates/Client.pem --location 
 You shold see this response  
 `{"statusCode": 200, "message": "Success"}`
 ##  
-**Congratulations you successfully configured mTLS with API Gateway** :trophy:
+**Congratulations you successfully configured mTLS with API Gateway!** :trophy:
