@@ -36,11 +36,14 @@ certificate_arn = "your_certificate_arn"
 Create client credentials from AWS user and login using aws cli
 with  
 `aws configure`  
+Initialize terraform  
+`terraform init --var-file prod.tfvars`   
 Inside src folder run the command bellow to see what will be created  
 `terraform plan --var-file prod.tfvars`  
 Finaly run the command bellow to create your resources  
 `terraform apply --var-file prod.tfvars`  
-confirm when the propt asks typing `yes`
+confirm when the propt asks typing  
+ `yes`
 ## Configure your domain
 In your domain create an cname that points to your API gateway custom domain endpoint.
 ## Testing the API
